@@ -14,7 +14,7 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-Proxy:
+proxies:
   - {name: 中转 🇺🇸 United States 1 @sharepai, server: hxqa2nv7.jogiyw.sbs, port: 16003, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
   - {name: 中转 🇺🇸 United States 2 @sharepai, server: hxqa2nv7.jogiyw.sbs, port: 16009, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
   - {name: 中转 🇺🇸 United States 3 @sharepai, server: hxqa2nv7.jogiyw.sbs, port: 16013, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
@@ -76,7 +76,7 @@ Proxy:
   - {name: 中转 🇩🇪 Germany 2 @sharepai, server: wfgk2qxd.jogiyw.sbs, port: 21006, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
   - {name: 中转 🇩🇪 Germany 3 @sharepai, server: wfgk2qxd.jogiyw.sbs, port: 21009, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
   - {name: 中转 🇩🇪 Germany 4 @sharepai, server: wfgk2qxd.jogiyw.sbs, port: 21013, type: ss, cipher: aes-128-gcm, password: lRht4_iFvb6MhS16KbR1T}
-Proxy Group:
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -218,7 +218,7 @@ Proxy Group:
       - 中转 🇩🇪 Germany 2 @sharepai
       - 中转 🇩🇪 Germany 3 @sharepai
       - 中转 🇩🇪 Germany 4 @sharepai
-Rule:
+rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
